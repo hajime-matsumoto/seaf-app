@@ -1,0 +1,24 @@
+{
+  "name": "hajime-matsumoto/seaf-app",
+  "description": "Simple Easy Acceptable Framework App Library",
+  "keywords": ["framework"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "http://hazime.org",
+  "authors": [
+    {
+      "name": "Hajime Matsumoto",
+      "email": "mail@hazime.org"
+    }
+  ],
+  "require": {
+    'hajime-matsumoto/seaf-core': '*',
+    'hajime-matsumoto/seaf-yaml': '*'
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-0": { "Seaf\\App": "src/App" },
+    "files": [ "src/autoload.php" ]
+  }
+}
